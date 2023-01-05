@@ -1,0 +1,17 @@
+[
+    {"id": 1,
+     "workout": "[Chest] | Bench Press | Push Ups | Dumbbell Flys"},
+
+     {"id": 2,
+     "workout": "[Arms] | Dumbbell Curls | Tricep Dips | Hammer Curl"},
+
+     {"id": 3,
+     "workout": "[Legs] | Bodyweight Squats | Leg Press | Lunges "},
+
+     {"id": 4,
+     "workout": "[Shoulders] | Shoulder Press | Rear Delt Fly | Plank "},
+
+     {"id": 5,
+     "workout": "[Abs] | Sit Ups | Leg Lifts | Bicycle Crunch"}
+
+]

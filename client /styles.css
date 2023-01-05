@@ -1,0 +1,264 @@
+body {
+    background-color: #ffffff;
+}
+
+h2 {
+    color: #007FFF;
+    text-align: center;
+    font-family: 'Murecho', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 5vh;
+    color: #007FFF;
+    font-family: 'Murecho', sans-serif;
+
+}
+
+.guess {
+  color: #000000;
+  font-weight:bolder;
+  font-size: 7vh;
+  margin-left: 225px;
+  margin-top: 170px;
+}
+
+ul, h2 {
+  display: inline-block;
+}
+
+ul {
+    font-size: 2.8vh;
+    color: #000000;
+    font-family: 'Murecho', sans-serif;
+    list-style-position: inside;
+    list-style-type: square;
+}
+
+@keyframes flyInFromRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.image {
+  float: right;
+  margin-top: 100px;
+  margin-right: 100px;
+  border-radius: 10px;
+  height: 50vh;
+  width: 85vh;
+  animation: flyInFromRight 1s ease-in-out;
+  padding-top: 35px;
+
+}
+
+.below-nav {
+  background-color: #f0f0f0;
+  margin-bottom: 50px;
+}
+
+form {
+  width: 350px;
+  height: 350px;
+  background-color: rgb(66, 111, 111);
+  display: flex; 
+  flex-direction: column;
+  justify-content: space-evenly; 
+  align-items:center;
+  margin-left: 100px;
+  font-size: large;
+}
+  
+  .delete-button {
+    background-color: #007FFF;
+    width: 75px;
+    height: 25px;
+    color: #ffffff;
+    border: none;
+    margin: 20px;
+    padding-right: 35px;
+    padding-left: 15px;
+    padding-bottom: 28px;
+    font-family: 'Murecho', sans-serif;
+    font-size:medium;
+    border-radius: 5px;
+  }
+
+  .button {
+    background-color: #007FFF;
+    width: 75px;
+    height: 25px;
+    color: #ffffff;
+    border: none;
+    margin: 20px;
+    padding-right: 108px;
+    padding-left: 15px;
+    padding-bottom: 28px;
+    font-family: 'Murecho', sans-serif;
+    font-size:medium;
+    border-radius: 5px;
+  }
+
+  .getStarted {
+    background-color: #007FFF;
+    width: 50vh;
+    height: 75px;
+    color: #ffffff;
+    border: none;
+    font-family: 'Murecho', sans-serif;
+    font-size:medium;
+    border-radius: 5px;
+    margin-left: 200px;
+    margin-bottom: 100px;
+  }
+
+
+  button:hover {
+    color: #ffffff;
+    background-color: #0161c1;
+  }
+
+  .wrapper {
+    display: flex;
+  }
+
+  .container {
+    width: 50%;
+    height: fit-content;
+    background-color: #eeeeee;
+    min-height: 50vh;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:flex-start;
+    text-align: center;
+    margin-right: 50px;
+    margin-top: 50px;
+  }
+
+
+  
+ /* CSS for exercise box */
+
+  #exercise-form {
+    font-family: 'Murecho', sans-serif;
+    width: 50%;
+    height: 50vh;
+    border:#ffd53e;
+    margin-bottom: 20px;
+    color: #000000;
+    background-color: #d1d1d1;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+
+  .input {
+    height: 30px;
+    width: 300px;
+    text-shadow: #007FFF;
+    font-size: medium;
+  }
+
+
+  /* CSS for the top nav bar */
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #007FFF;
+  color: #fff;
+  height: 60px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 25px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ccc;
+}
+
+/* MIDDLE SECTION */
+
+.wrapper2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#example-container {
+  font-family: 'Murecho', sans-serif;
+  width: 50%;
+  height: 50vh;
+  line-height: 50px;
+  border: #ffd53e;
+  margin-bottom: 20px;
+  color: #000000;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  margin-left: 200px;
+  margin-top: 50px;
+  padding-top: 50px;
+  vertical-align: middle;
+  text-align:start
+  
+
+}
+
+#getExample {
+  background-color: #007FFF;
+  width: 50vh;
+  height: 75px;
+  color: #ffffff;
+  border: none;
+  font-family: 'Murecho', sans-serif;
+  font-size:medium;
+  border-radius: 5px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+}
+
+.inspiration {
+  color: #000000;
+  font-weight:bolder;
+  font-size: 7vh;
+  margin-right: 200px;
+  margin-top: 115px;
+}
+
+.inspiration2 {
+  width: 50%;
+  height: fit-content;
+  background-color: #eeeeee;
+  min-height: 50vh;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items:flex-start;
+  text-align: center;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+
+li {
+  animation: flyInFromRight 1s ease-in-out;
+  animation-fill-mode: forwards;
+}
